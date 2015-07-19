@@ -17,6 +17,6 @@
 
 
 $(document).ready(function() {
-    $('.long-form').on('hover', function() {
-       $() 
+    $('.long-content').on('hover', function() {
+       $('.long-content span').slideToggle(); 
     });
