@@ -2,13 +2,13 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     color: #333333;
     margin: 0;
-    padding: 0;
+    padding: 50px 0 0 0;
 }
 
-.nav {
-    position: absolute;
-    right: 15px;
-    top: 15px;
+.notices {
+    position: fixed;
+    top: 52px;
+    padding: 30px;
 }
 
 .hero {    
@@ -43,4 +43,10 @@ body {
         display: none;
     }
 }
+
+footer {
+    background-color: #808080;
+    padding: 20px 0;
+}
+
 
